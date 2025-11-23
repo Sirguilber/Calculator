@@ -70,8 +70,6 @@ function keyboardInputHandler(e) {
     res.value += "6";
   } else if (e.key === "7") {
     res.value += "7";
-  } else if (e.key === "7") {
-    res.value += "7";
   } else if (e.key === "8") {
     res.value += "8";
   } else if (e.key === "9") {
