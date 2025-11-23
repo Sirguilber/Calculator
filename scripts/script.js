@@ -99,6 +99,11 @@ function keyboardInputHandler(e) {
     calculate(result.value);
   }
 
+  //press C to to clear  screen
+  if (e.key === "c" || e.key === "C") {
+    calculate(res.value = "");
+  }
+
   //backspace for removing the last input
   if (e.key === "Backspace") {
     const resultInput = res.value;
